@@ -2,7 +2,7 @@
 
 ---
 
-## 📌 Summary
+##🧭 Summary
 
 This project demonstrates how to use a **push button input (GPIOA pin 0)** on the STM32F4 Discovery board to trigger an LED blinking sequence.  
 When the user button is pressed, all 4 onboard LEDs (LD3–LD6) are turned on and off sequentially.  
@@ -64,9 +64,3 @@ stm32-blink-led/\
 | LD3 (Orange) | D    | 13  | Output LED          |
 | LD5 (Red)    | D    | 14  | Output LED          |
 | LD6 (Blue)   | D    | 15  | Output LED          |
-
-🧭 Summary
-
-This project demonstrates how to use a **push button input (GPIOA pin 0)** on the STM32F4 Discovery board to trigger an LED blinking sequence.  
-When the user button is pressed, all 4 onboard LEDs (LD3–LD6) are turned on and off sequentially.  
-This example introduces **GPIO input reading** and shows how to combine it with structured output control using `GPIO_WritePin()`.
